@@ -21,6 +21,6 @@ We also already try to represent a gauss curve instead of the demo functions fro
 Lastly, in snntorch_regression_3_* we utilise 3 variable values in the dataset, standard deviation, mean and the input x and a mix of Leaky and Recurrent Leaky Neurons in the architecture.
 This is also where the final graphs for the thesis were taken from.
 
-All notebooks ending in input_output_constant utilise a constant expected target averaged after some setteling time and a constant input. The constant target is inspired by the following paper using constant expected outputs for their use case and then only counting the resulting membrane potential after some time.
+All notebooks ending in input_output_constant utilise a constant expected target averaged after some setteling time and a constant input. The setteling time is inspired by the following paper only counting the resulting membrane potential after some time. The constant expected target is a result of a mistaken understanding of the author where we at first understood the paper to have a constant expected target, this however is wrong and it has a moving target over time steps representing the changes in angular velocity, however as it still works well it is a nice finding.
 
 [M. Gehrig, S. B. Shrestha, D. Mouritzen and D. Scaramuzza, "Event-Based Angular Velocity Regression with Spiking Networks," 2020 IEEE International Conference on Robotics and Automation (ICRA), Paris, France, 2020, pp. 4195-4202, doi: 10.1109/ICRA40945.2020.9197133](https://doi.org/10.1109/ICRA40945.2020.9197133)
