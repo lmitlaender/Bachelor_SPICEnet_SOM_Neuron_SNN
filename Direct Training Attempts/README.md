@@ -8,3 +8,7 @@ This code is based on the following two papers:
 [Alexander Henkes, Jason K. Eshraghian, and Henning Wessels. “Spiking neural networks for nonlinear regression”, arXiv preprint arXiv:2210.03515, October 2022.](https://arxiv.org/abs/2210.03515)
 
 [Jason K. Eshraghian, Max Ward, Emre Neftci, Xinxin Wang, Gregor Lenz, Girish Dwivedi, Mohammed Bennamoun, Doo Seok Jeong, and Wei D. Lu. “Training Spiking Neural Networks Using Lessons From Deep Learning”. Proceedings of the IEEE, 111(9) September 2023](https://ieeexplore.ieee.org/abstract/document/10242251)
+
+We copied the notebook found in the link above to additionally added some changes for our own exploration:
+
+ - in snntorch_regression_1.ipynb we add an additional data generation method for taking the "features ** 2" over time as a function.
