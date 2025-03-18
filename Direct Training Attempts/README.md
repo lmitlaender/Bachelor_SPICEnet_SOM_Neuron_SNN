@@ -1,7 +1,7 @@
 # Direct Training Attempts
 We group our training attempts for SNN Regression by directly training the SNN here. 
 
-All of these training notebooks are based on the code found here https://snntorch.readthedocs.io/en/latest/tutorials/tutorial_regression_1.html
+All of these training notebooks are based on the code found here: https://snntorch.readthedocs.io/en/latest/tutorials/tutorial_regression_1.html and only slightly adapted during our exploration. 
 
 This code is based on the following two papers:
 
@@ -16,7 +16,7 @@ We copied the notebook found in the link above to additionally added some change
 In the following copies from snntorch_regression_2 onwards additional changes were made. 
 the 2 after snntorch_regression means that we now use 2 variables in the dataset, a change from the original where only one is used.
 We additionally add some plotting for our own analysis, based on the original plotting already implemented.
-We also already try to represent a gauss curve.
+We also already try to represent a gauss curve instead of the demo functions from the original notebook.
 
 Lastly, in snntorch_regression_3_* we utilise 3 variable values in the dataset, standard deviation, mean and the input x and a mix of Leaky and Recurrent Leaky Neurons in the architecture.
 This is also where the final graphs for the thesis were taken from.
