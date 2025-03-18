@@ -1,0 +1,13 @@
+jupyterlab
+numpy
+pandas
+matplotlib
+scikit-learn
+sinabs
+norse
+nir
+torch-directml
+tqdm
+plotly
+ipywidgets
+torcheval

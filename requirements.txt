@@ -1,0 +1,15 @@
+jupyterlab
+numpy
+pandas
+matplotlib
+scikit-learn
+sinabs
+norse
+nir
+torch
+torchvision
+torchaudio
+tqdm
+plotly
+ipywidgets
+torcheval
