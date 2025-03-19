@@ -8,3 +8,6 @@ Additionally the final improvements folder has the best of our dataset generatio
 The final ANN results can then be found in "thesis_results_copy" and "results". This is split because the results get overwritten if another model with the same training name is started. As such, "thesis_results_copy" serves as a persistent copy of our results.
 
 the "other attempts" folder has various other experiments done in this step that slowly served to build towards our final implementation, are, however, not further explained
+
+# Additional ANN Evalutaion
+in the "analysis" folder in the "final_improvements" folder we additionally compare both SGD and AdamW optimizers after 550 epochs of training in R2 score and Loss. AdamW here performs much better for the number of epochs which is expected and only confirms these results. These tests are run on an additionally generated evaluation dataset without dupliates in the original test and train dataset.
