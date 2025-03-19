@@ -13,3 +13,4 @@ tqdm
 plotly
 ipywidgets
 torcheval
+anywidget

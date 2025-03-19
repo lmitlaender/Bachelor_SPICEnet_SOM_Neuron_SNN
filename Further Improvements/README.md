@@ -11,3 +11,6 @@ the "other attempts" folder has various other experiments done in this step that
 
 # Additional ANN Evalutaion
 in the "analysis" folder in the "final_improvements" folder we additionally compare both SGD and AdamW optimizers after 550 epochs of training in R2 score and Loss. AdamW here performs much better for the number of epochs which is expected and only confirms these results. These tests are run on an additionally generated evaluation dataset without dupliates in the original test and train dataset.
+
+# Final Dataset Generation analysis
+The plots for the final analysis of the final dataset can be found plotted in the same notebook as the original SNN training datasets, so in "Original SNN Training/analysis/generated_data_analysis.ipynb" at the end.
