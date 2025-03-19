@@ -25,4 +25,9 @@ All notebooks ending in input_output_constant utilise a constant expected target
 
 [M. Gehrig, S. B. Shrestha, D. Mouritzen and D. Scaramuzza, "Event-Based Angular Velocity Regression with Spiking Networks," 2020 IEEE International Conference on Robotics and Automation (ICRA), Paris, France, 2020, pp. 4195-4202, doi: 10.1109/ICRA40945.2020.9197133](https://doi.org/10.1109/ICRA40945.2020.9197133)
 
-Lastly some of the notebooks utilise torch-directml, with the requirements found in the main folder.
+## Usage
+
+Open this folder in it's own environment and install the required directml requirements.txt found in this folder.
+The directml version is only required for the snntorch_regression_3 notebooks, all other ones should also perform fine with the original requirements.txt in the main folder.
+
+For systems where directml is not available, simply remove all mentions of directml in the notebook and it should, if having normal torch installed, run.
